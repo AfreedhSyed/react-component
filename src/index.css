@@ -1,0 +1,49 @@
+body {
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  background: black;
+}
+.heading {
+  font-size: xx-large;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 50px;
+  width: 500px;
+  border-radius: 18px;
+  box-shadow: 20px 20px 10px rgba(102, 106, 111, 0.1);
+  overflow: hidden; /* keeps child corners rounded */
+  background: #fff;
+}
+.card-navbar {
+  justify-items: center;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: white;
+  padding: 2px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  justify-content: center;
+  padding-top: 10px;
+  font-size: large;
+  background: azure;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+.card-footer {
+  background: azure;
+  padding: 12px 16px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+}
